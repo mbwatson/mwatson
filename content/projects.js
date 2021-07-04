@@ -1,7 +1,4 @@
-import styles from './project-list.module.css'
-import Image from 'next/image'
-
-const projects = [
+export const projects = [
   {
     name: 'BioData Catalyst',
     id: 'bdc',
@@ -57,7 +54,7 @@ const projects = [
     url: 'https://michellescaraglino.com',
   },
   {
-    name: 'DOT Roadway Hazard Finder',
+    name: 'Roadway Hazard Finder',
     id: 'rhf',
     imagePath: '/images/rhf.png',
     url: 'https://dotdsi.renci.org/',
@@ -69,32 +66,3 @@ const projects = [
     url: 'https://sc.renci.org/',
   },
 ]
-
-export const ProjectList = () => {
-  return (
-    <div className={ styles.grid }>
-      {
-        projects.map(({ id, imagePath, name, url }) => (
-          <Project key={ id } name={ name } imagePath={ imagePath } url={ url } />
-        ))
-      }
-    </div>
-  )
-}
-
-const Project = ({ name, url, imagePath }) => {
-  if (!url) {
-    return (
-      <span className={ styles.projectLink }>
-        <div className={ styles.project } style={{ background: `url(${ imagePath })` }} />
-        <div className={ styles.projectName }>{ name }</div>
-      </span>
-    )
-  }
-  return (
-    <a href={ url } className={ styles.projectLink } target="_blank" rel="noopener noreferrer">
-      <div className={ styles.project } style={{ backgroundImage: `url(${ imagePath })` }} />
-      <div className={ styles.projectName }>{ name }</div>
-    </a>
-  )
-}

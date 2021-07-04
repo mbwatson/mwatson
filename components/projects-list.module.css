@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+.grid {
+  flex: 1;
+  display: grid;
+  padding: 2rem;
+  gap: 1px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fit, 250px);
+}

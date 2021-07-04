@@ -16,6 +16,9 @@ export const ProjectsList = ({ projects, clickHandler }) => {
           />
         ))
       }
+      {
+        [...Array(5).keys()].map(i => <div key={ i } className={ styles.filler } />)
+      }
     </div>
   )
 }

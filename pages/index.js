@@ -33,12 +33,9 @@ export default function Home() {
   return (
     <PortfolioContext.Provider value={{ activeProject, handleClickProject }}>
       <div className={ styles.container }>
-        <ProjectsList
-          projects={ projects }
-          clickHandler={ handleClickProject }
-        />
+        <ProjectsList projects={ projects } clickHandler={ handleClickProject } />
         <Drawer open={ activeProject } closeHandler={ handleCloseDrawer }>
-          <ProjectSummary project={ activeProject } key={ activeProject?.id || 'key' } />
+          <ProjectSummary key={ activeProject?.id || 'key' } />
         </Drawer>
       </div>
     </PortfolioContext.Provider>

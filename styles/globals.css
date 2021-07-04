@@ -4,20 +4,20 @@
 
 html,
 body {
-  background-color: #123;
+  background:
+    linear-gradient(0deg, #00223311 20vh, #66441111 20vh),
+    linear-gradient(90deg, #112233ee 25vw, #102030dd 25vw),
+    linear-gradient(-20deg, #330022ff 50vmax, #551144ff 50vmax)
+  ;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   letter-spacing: 1px;
+  overflow: hidden;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-.header {
-  padding: 0 2rem;
-  border: 1px solid #eee;
 }

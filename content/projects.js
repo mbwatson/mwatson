@@ -5,6 +5,7 @@ export const projects = [
     imagePath: '/images/bdc.png',
     url: 'https://biodatacatalyst.nhlbi.nih.gov/',
     tags: ['React', 'Gatsby', 'AWS', 'Data Visualization', 'HTML', 'CSS', 'JavaScript'],
+    description: `...`,
   },
   {
     name: 'CTMD',
@@ -12,6 +13,7 @@ export const projects = [
     imagePath: '/images/ctmd.png',
     url: 'https://ctmd.renci.org/',
     tags: ['React', 'Node', 'Express', 'Docker', 'PostgreSQL', 'Data Visualization', 'HTML', 'CSS', 'JavaScript'],
+    description: `...`,
   },
   {
     name: 'RENCI\'S COVID-19 Response',
@@ -19,6 +21,7 @@ export const projects = [
     imagePath: '/images/covid.png',
     url: 'https://covid-19.renci.org/',
     tags: ['React', 'Gatsby', 'M↓', 'HTML', 'CSS', 'JavaScript'],
+    description: `...`,
   },
   {
     name: 'Create RENCI App',
@@ -26,6 +29,7 @@ export const projects = [
     imagePath: '/images/cra.png',
     url: 'https://www.npmjs.com/package/@renci/create-renci-app',
     tags: ['React', 'Webpack', 'Babel', 'HTML', 'CSS', 'SCSS', 'PostCSS', 'JavaScript'],
+    description: `...`,
   },
   {
     name: 'FABRIC Testbed',
@@ -33,6 +37,7 @@ export const projects = [
     imagePath: '/images/fabric.png',
     url: 'https://fabric-testbed.net/',
     tags: ['React', 'Gatsby', 'M↓', 'YAML', 'HTML', 'CSS', 'JavaScript'],
+    description: `...`,
   },
   {
     name: 'HeLx UI',
@@ -40,6 +45,7 @@ export const projects = [
     imagePath: '/images/helx.png',
     url: 'https://heal-dev.blackbalsam-cluster.edc.renci.org/helx/',
     tags: ['React', 'Django', 'HTML', 'CSS', 'JavaScript'],
+    description: `...`,
   },
   {
     name: 'Hey, OK! Pictures',
@@ -47,6 +53,7 @@ export const projects = [
     imagePath: '/images/hey-ok.png',
     url: 'https://heyokpictures.com/',
     tags: ['SquareSpace', 'CSS', 'JavaScript'],
+    description: `...`,
   },
   {
     name: 'First Mile to Health',
@@ -61,6 +68,7 @@ export const projects = [
     imagePath: '/images/ms.png',
     url: 'https://michellescaraglino.com',
     tags: ['React', 'Gatsby', 'HTML', 'CSS', 'M↓', 'JavaScript'],
+    description: `...`,
   },
   {
     name: 'Roadway Hazard Finder',
@@ -68,6 +76,7 @@ export const projects = [
     imagePath: '/images/rhf.png',
     url: 'https://dotdsi.renci.org/',
     tags: ['React', 'HTML', 'CSS', 'Data Visualization', 'JavaScript'],
+    description: `...`,
   },
   {
     name: 'RENCI\'s SC20 Virtual Booth',
@@ -75,5 +84,6 @@ export const projects = [
     imagePath: '/images/sc20.png',
     url: 'https://sc.renci.org/',
     tags: ['React', 'Gatsby', 'M↓', 'HTML', 'CSS', 'JavaScript'],
+    description: `...`,
   },
 ]

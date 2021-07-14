@@ -6,6 +6,7 @@ import styles from './project-summary.module.css'
 
 export const ProjectSummary = () => {
   const { activeProject } = usePortfolio()
+  console.log(activeProject)
 
   if (!activeProject) {
     return <div>&nbsp;</div>
@@ -32,11 +33,7 @@ export const ProjectSummary = () => {
 
       <div className={ styles.summary }>
         <p className={ styles.description }>
-          {
-            Math.random() > 0.5
-            ? `Table 8-bit faded render-farm otaku pen Shibuya market carbon nano-hotdog semiotics. Computer render-farm-ware papier-mache long-chain hydrocarbons grenade spook tanto dome sprawl j-pop kanji rebar towards modem pistol Legba. Bicycle assassin bridge cyber-shanty town paranoid otaku. Tanto camera math-digital Tokyo DIY courier drugs rifle tank-traps realism hacker. `
-            : `Skyscraper plastic monofilament military-grade pre-denim woman. Shoes construct face forwards Shibuya DIY physical range-rover dissident order-flow silent garage grenade systema shanty town bomb. Dome Chiba paranoid math-stimulate digital face forwards into beef noodles Legba garage sensory-space singularity. Human garage plastic free-market Shibuya silent boat rain San Francisco sensory jeans smart-physical beef noodles table computer-space. Math-nano-girl BASE jump grenade bicycle geodesic DIY claymore mine kanji tower artisanal. Dome lights courier 8-bit sprawl neon sunglasses. `
-          }
+          { activeProject.description }
         </p>
         <ul className={ styles.tags }>
           { activeProject.tags.sort((s, t) => s.toLowerCase() < t.toLowerCase() ? -1 : 1).map(tag => <li key={ tag }>{ tag }</li>) }

@@ -1,0 +1,27 @@
+.drawer {
+  background-image: linear-gradient(-30deg, #060610, #11161c);
+  overflow: hidden;
+  transition: min-width 250ms, max-width 250ms;
+  position: relative;
+  padding-top: 3rem;
+  filter: drop-shadow(0 0 0.5rem #00000066);
+}
+
+.toggler {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: indianred;
+  border: 0;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: filter 250ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: saturate(0.5) brightness(0.5);
+}
+
+.toggler:hover {
+  filter: saturate(0.9) brightness(0.9);
+}

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+.grid {
+  flex: 1;
+  display: grid;
+  grid-auto-flow: row;
+  padding: 1rem;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(25px, 250px));
+}
+
+.filler {
+  background-color: azure;
+  height: 100%;
+  width: 100%;
+}
+
+.filler:nth-last-child(1) { filter: opacity(0.001); }
+.filler:nth-last-child(2) { filter: opacity(0.005); }
+.filler:nth-last-child(3) { filter: opacity(0.009); }
+.filler:nth-last-child(4) { filter: opacity(0.013); }
+.filler:nth-last-child(5) { filter: opacity(0.017); }

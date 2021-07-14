@@ -6,7 +6,6 @@ import styles from './project-summary.module.css'
 
 export const ProjectSummary = () => {
   const { activeProject } = usePortfolio()
-  console.log(activeProject)
 
   if (!activeProject) {
     return <div>&nbsp;</div>

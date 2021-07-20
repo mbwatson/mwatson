@@ -102,7 +102,7 @@ export const projects = [
     url: 'https://dotdsi.renci.org/',
     tags: ['React', 'HTML', 'CSS', 'Data Visualization', 'JavaScript'],
     description: `Through work with the North Carolin DOT, this exciting project is tasked with helping find hazards
-      on North Carolina roadways through image analysis. My role on tis project is to assist in build (1) an active
+      on North Carolina roadways through image analysis. My role on this project is to assist in build (1) an active
       learning interface for training machine learning models to find these hazards and (2) a diagnostic interface
       to analyze predictions and user annotations.`,
   },

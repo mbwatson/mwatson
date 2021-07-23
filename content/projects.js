@@ -70,7 +70,7 @@ export const projects = [
     imagePath: '/images/hey-ok.png',
     url: 'https://heyokpictures.com/',
     tags: ['SquareSpace', 'CSS', 'JavaScript'],
-    description: `This is a website overhaul for a friends video production company, Hey, OK! Pictures, in Raleigh, NC.
+    description: `This is a website overhaul for a friend's video production company, Hey, OK! Pictures, in Raleigh, NC.
       The clients wanted a static site that was simple to maintain, update, and enhance. Since the content is mostly static text and links to videos,
       I selected to build their site on SquareSpace. It uses a simple theme provided by SquareSpace, which I then enhanced with custom JavaScript and CSS
       to meet the aesthetic needs`,

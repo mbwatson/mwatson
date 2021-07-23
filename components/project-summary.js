@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Icon } from './icon'
-import { usePortfolio } from '../pages/index'
+import { usePortfolio } from '../pages/work'
 
 import styles from './project-summary.module.css'
 

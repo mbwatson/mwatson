@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { usePortfolio } from '../pages/index'
+import { usePortfolio } from '../pages/work'
 import styles from './project.module.css'
 
 export const Project = ({ id, name, url, imagePath, clickHandler }) => {

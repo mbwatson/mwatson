@@ -30,6 +30,8 @@ export default function Work() {
     }
   }
 
+  console.log(projects)
+
   return (
     <PortfolioContext.Provider value={{ activeProject, handleClickProject }}>
       <div className={ styles.work }>

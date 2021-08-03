@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { usePortfolio } from '../pages/work'
 import styles from './project.module.css'
 
-export const Project = ({ id, name, url, imagePath, clickHandler }) => {
+export const Project = ({ id, name, url, image, clickHandler }) => {
   const { activeProject } = usePortfolio()
 
   return (
@@ -12,7 +12,7 @@ export const Project = ({ id, name, url, imagePath, clickHandler }) => {
     >
       <div
         className={ styles.image }
-        style={{ background: `url(${ imagePath })`, backgroundSize: 'cover' }}
+        style={{ background: `url(${ image })`, backgroundSize: 'cover' }}
       />
       <div
         className={ styles.name }

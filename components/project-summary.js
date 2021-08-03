@@ -39,7 +39,7 @@ export const ProjectSummary = () => {
         </ul>
       </div>
 
-      <div className={ styles.preview } style={{ background: `url(${ activeProject.imagePath })`, backgroundSize: 'cover' }} />
+      <div className={ styles.preview } style={{ background: `url(${ activeProject.images.fullSize })`, backgroundSize: 'cover' }} />
     </div>
   )
 }

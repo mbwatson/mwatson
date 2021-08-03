@@ -2,7 +2,10 @@ export const projects = [
   {
     name: 'BioData Catalyst Marketing Site',
     id: 'bdc',
-    imagePath: '/images/bdc.png',
+    images: {
+      fullSize: '/images/bdc.png',
+      thumbnail: '/images/bdc-thumbnail.png',
+    },
     url: 'https://biodatacatalyst.nhlbi.nih.gov/',
     tags: ['React', 'Gatsby', 'AWS', 'Data Visualization', 'HTML', 'CSS', 'JavaScript'],
     description: `This is a marketing website for NHLBI BioData Catalyst, which is a
@@ -13,7 +16,10 @@ export const projects = [
   {
     name: 'CTMD',
     id: 'ctmd',
-    imagePath: '/images/ctmd.png',
+    images: {
+      fullSize: '/images/ctmd.png',
+      thumbnail: '/images/ctmd-thumbnail.png',
+    },
     url: 'https://ctmd.renci.org/',
     tags: ['React', 'Node', 'Express', 'Docker', 'PostgreSQL', 'Data Visualization', 'HTML', 'CSS', 'JavaScript'],
     description: `The Clinical Trial Managemement Dashboard is an application to help Duke University Trial Innovation Network
@@ -24,7 +30,10 @@ export const projects = [
   {
     name: 'RENCI\'S COVID-19 Response',
     id: 'covid',
-    imagePath: '/images/covid.png',
+    images: {
+      fullSize: '/images/covid.png',
+      thumbnail: '/images/covid-thumbnail.png',
+    },
     url: 'https://covid-19.renci.org/',
     tags: ['React', 'Gatsby', 'M↓', 'HTML', 'CSS', 'JavaScript'],
     description: `This is a static site built with Gatsby. Gatsby was a useful framework for this project,
@@ -34,7 +43,10 @@ export const projects = [
   {
     name: 'Create RENCI App',
     id: 'cra',
-    imagePath: '/images/cra.png',
+    images: {
+      fullSize: '/images/cra.png',
+      thumbnail: '/images/cra-thumbnail.png',
+    },
     url: 'https://www.npmjs.com/package/@renci/create-renci-app',
     tags: ['React', 'Webpack', 'Babel', 'HTML', 'CSS', 'SCSS', 'PostCSS', 'JavaScript'],
     description: `This project is purely to speed up the development timeline for our developers.
@@ -44,7 +56,10 @@ export const projects = [
   {
     name: 'FABRIC Testbed Marketing Site',
     id: 'fabric',
-    imagePath: '/images/fabric.png',
+    images: {
+      fullSize: '/images/fabric.png',
+      thumbnail: '/images/fabric-thumbnail.png',
+    },
     url: 'https://fabric-testbed.net/',
     tags: ['React', 'Gatsby', 'M↓', 'YAML', 'HTML', 'CSS', 'JavaScript'],
     description: `This is the marketing website for FABRIC, which is a novel research infrastructure
@@ -55,7 +70,10 @@ export const projects = [
   {
     name: 'HeLx UI',
     id: 'helx',
-    imagePath: '/images/helx.png',
+    images: {
+      fullSize: '/images/helx.png',
+      thumbnail: '/images/helx-thumbnail.png',
+    },
     url: 'https://heal-dev.blackbalsam-cluster.edc.renci.org/helx/',
     tags: ['React', 'Django', 'HTML', 'CSS', 'JavaScript'],
     description: `This is a highly collaborative effort to revamp the user interface for one of RENCI's flagship projects, HeLx.
@@ -67,7 +85,10 @@ export const projects = [
   {
     name: 'Hey, OK! Pictures',
     id: 'heyok',
-    imagePath: '/images/hey-ok.png',
+    images: {
+      fullSize: '/images/hey-ok.png',
+      thumbnail: '/images/hey-ok-thumbnail.png',
+    },
     url: 'https://heyokpictures.com/',
     tags: ['SquareSpace', 'CSS', 'JavaScript'],
     description: `This is a website overhaul for a friend's video production company, Hey, OK! Pictures, in Raleigh, NC.
@@ -78,7 +99,10 @@ export const projects = [
   {
     name: 'First Mile to Health',
     id: 'first-mile',
-    imagePath: '/images/first-mile.png',
+    images: {
+      fullSize: '/images/first-mile.png',
+      thumbnail: '/images/first-mile-thumbnail.png',
+    },
     url: null,
     tags: ['D3' ,'CSS', 'JavaScript'],
     description: `Under the guidance of RENCI's senior visualization specialist, this was the first data visualization project at RENCI
@@ -88,7 +112,10 @@ export const projects = [
   {
     name: 'Michelle Scaraglino',
     id: 'ms',
-    imagePath: '/images/ms.png',
+    images: {
+      fullSize: '/images/ms.png',
+      thumbnail: '/images/ms-thumbnail.png',
+    },
     url: 'https://michellescaraglino.com',
     tags: ['React', 'Gatsby', 'HTML', 'CSS', 'M↓', 'JavaScript'],
     description: `This is the website for my wife's hair styling business. As far as content and functionality complexity,
@@ -98,7 +125,10 @@ export const projects = [
   {
     name: 'Roadway Hazard Finder',
     id: 'rhf',
-    imagePath: '/images/rhf.png',
+    images: {
+      fullSize: '/images/rhf.png',
+      thumbnail: '/images/rhf-thumbnail.png',
+    },
     url: 'https://dotdsi.renci.org/',
     tags: ['React', 'HTML', 'CSS', 'Data Visualization', 'JavaScript'],
     description: `Through work with the North Carolin DOT, this exciting project is tasked with helping find hazards
@@ -109,7 +139,10 @@ export const projects = [
   {
     name: 'RENCI\'s SC20 Virtual Booth',
     id: 'sc20',
-    imagePath: '/images/sc20.png',
+    images: {
+      fullSize: '/images/sc20.png',
+      thumbnail: '/images/sc20-thumbnail.png',
+    },
     url: 'https://sc.renci.org/',
     tags: ['React', 'Gatsby', 'M↓', 'HTML', 'CSS', 'JavaScript'],
     description: `Due to the COVID-19 pandemic last year, the Supercomputing 2020 conference was virtual.
